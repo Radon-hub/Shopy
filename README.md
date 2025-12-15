@@ -109,7 +109,7 @@ You can import the Postman collection from:
 
 ```bash
 
-/docs/Shopy.postman_collection.json
+/postman/collections/*.postman_collection.json
 
 ```
 ## Architecture Overview
