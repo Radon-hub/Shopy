@@ -1,0 +1,993 @@
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763033449820
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763033472187
+*2
+$6
+SELECT
+$1
+0
+*2
+$3
+DEL
+$11
+users::20:0
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763037408884
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763037879548
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038202312
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"ageValid":true,"emailValid":true,"phoneNumberValid":true,"passwordValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038404324
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038476763
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038480793
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038482376
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038483257
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038484172
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"phoneNumberValid":true,"passwordValid":true,"ageValid":true,"emailValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038485084
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"ageValid":true,"emailValid":true,"phoneNumberValid":true,"passwordValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763038594864
+*2
+$3
+DEL
+$11
+users::20:0
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$11
+users::20:0
+$529
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"ageValid":true,"emailValid":true,"phoneNumberValid":true,"passwordValid":true,"address":["java.util.ArrayList",[]]}]],"pageNumber":0,"pageSize":20,"totalPages":1,"totalElements":1}
+$4
+PXAT
+$13
+1763040625767
+*2
+$6
+SELECT
+$1
+0
+*2
+$3
+DEL
+$11
+users::20:0
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$11
+users::10:0
+$873
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true},{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$4ryoBjYDGFBemRkluNYwmusJEHICI7jjxqtbqhhRV6JCe3NclC0.K","age":45,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}]],"pageNumber":0,"pageSize":10,"totalPages":1,"totalElements":2}
+$4
+PXAT
+$13
+1764242177910
+*5
+$3
+SET
+$17
+user::09111234555
+$343
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764242424627
+*5
+$3
+SET
+$11
+users::10:0
+$873
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true},{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}]],"pageNumber":0,"pageSize":10,"totalPages":1,"totalElements":2}
+$4
+PXAT
+$13
+1764242433375
+*5
+$3
+SET
+$11
+users::10:0
+$873
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true},{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}]],"pageNumber":0,"pageSize":10,"totalPages":1,"totalElements":2}
+$4
+PXAT
+$13
+1764242436712
+*5
+$3
+SET
+$11
+users::10:0
+$873
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true},{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}]],"pageNumber":0,"pageSize":10,"totalPages":1,"totalElements":2}
+$4
+PXAT
+$13
+1764242437607
+*5
+$3
+SET
+$11
+users::10:0
+$873
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true},{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}]],"pageNumber":0,"pageSize":10,"totalPages":1,"totalElements":2}
+$4
+PXAT
+$13
+1764242438479
+*5
+$3
+SET
+$11
+users::10:0
+$873
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true},{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}]],"pageNumber":0,"pageSize":10,"totalPages":1,"totalElements":2}
+$4
+PXAT
+$13
+1764242439282
+*5
+$3
+SET
+$11
+users::10:0
+$873
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true},{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}]],"pageNumber":0,"pageSize":10,"totalPages":1,"totalElements":2}
+$4
+PXAT
+$13
+1764242440126
+*5
+$3
+SET
+$17
+user::09111234555
+$343
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764242513639
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$26
+["java.util.ArrayList",[]]
+$4
+PXAT
+$13
+1764242631800
+*2
+$3
+DEL
+$11
+users::10:0
+*2
+$3
+DEL
+$23
+addresses::SimpleKey []
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$221
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.presentation.dto.AddressResponse","title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - mostofi","extraDetails":"Sweet Home"}]]
+$4
+PXAT
+$13
+1764242843639
+*5
+$3
+SET
+$17
+user::09111234555
+$548
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - mostofi","extraDetails":"Sweet Home","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764242872982
+*2
+$3
+DEL
+$23
+addresses::SimpleKey []
+*2
+$3
+DEL
+$17
+user::09111234555
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$17
+user::09111234555
+$548
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - mostofi","extraDetails":"Sweet Home","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764244522515
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$221
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.presentation.dto.AddressResponse","title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - mostofi","extraDetails":"Sweet Home"}]]
+$4
+PXAT
+$13
+1764244526131
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$17
+user::09111234555
+$548
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Toghani","extraDetails":"Sweet Home","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764245121509
+*2
+$3
+DEL
+$23
+addresses::SimpleKey []
+*5
+$3
+SET
+$17
+user::09111234555
+$548
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Toghani","extraDetails":"Sweet Home","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764245128729
+*5
+$3
+SET
+$17
+user::09111234555
+$548
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Toghani","extraDetails":"Sweet Home","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764245178472
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$220
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.presentation.dto.AddressResponse","title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home"}]]
+$4
+PXAT
+$13
+1764245208963
+*5
+$3
+SET
+$17
+user::09111234555
+$547
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764245212377
+*2
+$3
+DEL
+$23
+addresses::SimpleKey []
+*2
+$3
+DEL
+$17
+user::09111234555
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$11
+users::10:0
+$1077
+{"@class":"org.radon.shopy.shared.dto.PagedResponse","content":["java.util.Collections$UnmodifiableRandomAccessList",[{"@class":"org.radon.shopy.user.domain.model.User","id":1,"fullName":"Alireza kherazan","email":"alireza.kh@gmail.com","phoneNumber":"09369101332","password":"$2a$10$UY4R3WIAM9Vk7jNNsaQgbuN18Zw4LmuXMNmCAuBBvG5qBQPjAngSq","age":27,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true},{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}]],"pageNumber":0,"pageSize":10,"totalPages":1,"totalElements":2}
+$4
+PXAT
+$13
+1764528972093
+*5
+$3
+SET
+$17
+user::09111234555
+$547
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764528999151
+*2
+$3
+DEL
+$11
+users::10:0
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$415
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.presentation.dto.AddressResponse","title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home"},{"@class":"org.radon.shopy.address.presentation.dto.AddressResponse","title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 25th street","extraDetails":"Kazino Co."}]]
+$4
+PXAT
+$13
+1764529086319
+*5
+$3
+SET
+$17
+user::09111234555
+$752
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 25th street","extraDetails":"Kazino Co.","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764529093197
+*5
+$3
+SET
+$17
+user::09111234555
+$752
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 26th street","extraDetails":"Kazino Co.","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764529248588
+*5
+$3
+SET
+$17
+user::09111234555
+$752
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 26th street","extraDetails":"Kazino Co.","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764529274156
+*2
+$6
+SELECT
+$1
+0
+*2
+$3
+DEL
+$17
+user::09111234555
+*2
+$3
+DEL
+$23
+addresses::SimpleKey []
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$17
+user::09111234555
+$752
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 26th street","extraDetails":"Kazino Co.","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764538593624
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$435
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 26th street","extraDetails":"Kazino Co.","user":null}]]
+$4
+PXAT
+$13
+1764538599762
+*5
+$3
+SET
+$150
+addresses::SimpleKey [2, AddAddressRequest[title=Work, province=Tehran, city=Tehran, area=Gandi, street=Gandi - 15th street, extraDetails=Kazino Co.]]
+$204
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null}
+$4
+PXAT
+$13
+1764538613511
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$435
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null}]]
+$4
+PXAT
+$13
+1764538618275
+*5
+$3
+SET
+$17
+user::09111234555
+$752
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764538623206
+*5
+$3
+SET
+$179
+addresses::SimpleKey [m.hasani@gmail.com, 09111234555, AddAddressRequest[title=Shop, province=Tehran, city=Tehran, area=Niavaran, street=Golestan 7 - 17 No, extraDetails=Gelayol]]
+$203
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null}
+$4
+PXAT
+$13
+1764538682855
+*5
+$3
+SET
+$17
+user::09111234555
+$203
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null}
+$4
+PXAT
+$13
+1764538682857
+*5
+$3
+SET
+$17
+user::09111234555
+$956
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1764538692871
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$639
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null}]]
+$4
+PXAT
+$13
+1764538704750
+*2
+$6
+SELECT
+$1
+0
+*2
+$3
+DEL
+$17
+user::09111234555
+*2
+$3
+DEL
+$23
+addresses::SimpleKey []
+*2
+$3
+DEL
+$179
+addresses::SimpleKey [m.hasani@gmail.com, 09111234555, AddAddressRequest[title=Shop, province=Tehran, city=Tehran, area=Niavaran, street=Golestan 7 - 17 No, extraDetails=Gelayol]]
+*2
+$3
+DEL
+$150
+addresses::SimpleKey [2, AddAddressRequest[title=Work, province=Tehran, city=Tehran, area=Gandi, street=Gandi - 15th street, extraDetails=Kazino Co.]]
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$639
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null}]]
+$4
+PXAT
+$13
+1765496674794
+*5
+$3
+SET
+$216
+addresses::SimpleKey [m.hasani@gmail.com, 09111234555, AddAddressRequest[title=Home Gheytariyeh, province=Tehran, city=Tehran, area=Gheytariyeh, street=Farsh Baf - Saeed saadi st, extraDetails=No 147 - 6 Floor - 63]]
+$240
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home Gheytariyeh","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null}
+$4
+PXAT
+$13
+1765496776749
+*5
+$3
+SET
+$17
+user::09111234555
+$240
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home Gheytariyeh","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null}
+$4
+PXAT
+$13
+1765496776786
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$880
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home Gheytariyeh","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null}]]
+$4
+PXAT
+$13
+1765496797182
+*5
+$3
+SET
+$17
+user::09111234555
+$1197
+{"@class":"org.radon.shopy.user.domain.model.User","id":2,"fullName":"Mohammad hasani","email":"m.hasani@gmail.com","phoneNumber":"09111234555","password":"$2a$10$lFbprMr6D9oaZWx97MppJ.YFltej504scOapzgGgYby5UbyvOO6M2","age":21,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home Gheytariyeh","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1765496815785
+*5
+$3
+SET
+$17
+user::09122532227
+$340
+{"@class":"org.radon.shopy.user.domain.model.User","id":17,"fullName":"Javad Nasabi","email":"j.nasab@gmail.com","phoneNumber":"09122532227","password":"$2a$10$tEi29uR8NMJ7WsaNK.u3i.GUndzATcwMCi/48QuzQuLufqLcJjmOi","age":28,"address":["java.util.ArrayList",[]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1765496890212
+*5
+$3
+SET
+$203
+addresses::SimpleKey [j.nasab@gmail.com, 09122532227, AddAddressRequest[title=Home, province=Tehran, city=Tehran, area=Gheytariyeh, street=Farsh Baf - Saeed saadi st, extraDetails=No 147 - 6 Floor - 63]]
+$228
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null}
+$4
+PXAT
+$13
+1765497002508
+*5
+$3
+SET
+$17
+user::09122532227
+$228
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null}
+$4
+PXAT
+$13
+1765497002510
+*5
+$3
+SET
+$17
+user::09122532227
+$568
+{"@class":"org.radon.shopy.user.domain.model.User","id":17,"fullName":"Javad Nasabi","email":"j.nasab@gmail.com","phoneNumber":"09122532227","password":"$2a$10$tEi29uR8NMJ7WsaNK.u3i.GUndzATcwMCi/48QuzQuLufqLcJjmOi","age":28,"address":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null}]],"ageValid":true,"phoneNumberValid":true,"emailValid":true,"passwordValid":true}
+$4
+PXAT
+$13
+1765497023024
+*2
+$3
+DEL
+$216
+addresses::SimpleKey [m.hasani@gmail.com, 09111234555, AddAddressRequest[title=Home Gheytariyeh, province=Tehran, city=Tehran, area=Gheytariyeh, street=Farsh Baf - Saeed saadi st, extraDetails=No 147 - 6 Floor - 63]]
+*2
+$3
+DEL
+$23
+addresses::SimpleKey []
+*2
+$3
+DEL
+$17
+user::09111234555
+*2
+$3
+DEL
+$203
+addresses::SimpleKey [j.nasab@gmail.com, 09122532227, AddAddressRequest[title=Home, province=Tehran, city=Tehran, area=Gheytariyeh, street=Farsh Baf - Saeed saadi st, extraDetails=No 147 - 6 Floor - 63]]
+*2
+$3
+DEL
+$17
+user::09122532227
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$182
+addresses::SimpleKey [j.nasab@gmail.com, 09122532227, AddAddressRequest[title=Shop, province=Tehran, city=Tehran, area=Shiraz st, street=Gali st - fadak Alley, extraDetails=No 1425]]
+$207
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Shiraz st","street":"Gali st - fadak Alley","extraDetails":"No 1425","user":null}
+$4
+PXAT
+$13
+1765575610251
+*5
+$3
+SET
+$17
+user::09122532227
+$207
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Shiraz st","street":"Gali st - fadak Alley","extraDetails":"No 1425","user":null}
+$4
+PXAT
+$13
+1765575610269
+*2
+$6
+SELECT
+$1
+0
+*2
+$3
+DEL
+$17
+user::09122532227
+*2
+$3
+DEL
+$182
+addresses::SimpleKey [j.nasab@gmail.com, 09122532227, AddAddressRequest[title=Shop, province=Tehran, city=Tehran, area=Shiraz st, street=Gali st - fadak Alley, extraDetails=No 1425]]
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$17
+user::09122532227
+$1016
+{"@class":"org.radon.shopy.user.domain.model.User","id":17,"fullName":{"@class":"org.radon.shopy.user.domain.model.FullName","value":"Javad Nasabi"},"email":{"@class":"org.radon.shopy.user.domain.model.Email","value":"j.nasab@gmail.com"},"phoneNumber":{"@class":"org.radon.shopy.user.domain.model.PhoneNumber","value":"09122532227"},"password":{"@class":"org.radon.shopy.user.domain.model.Password","value":"$2a$10$tEi29uR8NMJ7WsaNK.u3i.GUndzATcwMCi/48QuzQuLufqLcJjmOi"},"addressList":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Shiraz st","street":"Gali st - fadak Alley","extraDetails":"No 1425","user":null}]],"age":{"@class":"org.radon.shopy.user.domain.model.Age","value":28}}
+$4
+PXAT
+$13
+1765579312965
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$1317
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home Gheytariyeh","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Shiraz st","street":"Gali st - fadak Alley","extraDetails":"No 1425","user":null}]]
+$4
+PXAT
+$13
+1765579318591
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$1317
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home Gheytariyeh","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Shiraz st","street":"Gali st - fadak Alley","extraDetails":"No 1425","user":null}]]
+$4
+PXAT
+$13
+1765579414166
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$1317
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home Gheytariyeh","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Shiraz st","street":"Gali st - fadak Alley","extraDetails":"No 1425","user":null}]]
+$4
+PXAT
+$13
+1765579427060
+*2
+$6
+SELECT
+$1
+0
+*5
+$3
+SET
+$175
+addresses::SimpleKey [h.sn@gmail.com, 09010000001, AddAddressRequest[title=Khone, province=Tehran, city=Tehran, area=Mirza shirazi st, street=Yaghoubi st, extraDetails=No 31]]
+$203
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Khone","province":"Tehran","city":"Tehran","area":"Mirza shirazi st","street":"Yaghoubi st","extraDetails":"No 31","user":null}
+$4
+PXAT
+$13
+1765579819988
+*5
+$3
+SET
+$17
+user::09010000001
+$203
+{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Khone","province":"Tehran","city":"Tehran","area":"Mirza shirazi st","street":"Yaghoubi st","extraDetails":"No 31","user":null}
+$4
+PXAT
+$13
+1765579820006
+*5
+$3
+SET
+$23
+addresses::SimpleKey []
+$1521
+["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Shariati","street":"Shahran - Naseri","extraDetails":"Sweet Home","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Work","province":"Tehran","city":"Tehran","area":"Gandi","street":"Gandi - 15th street","extraDetails":"Kazino Co.","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Niavaran","street":"Golestan 7 - 17 No","extraDetails":"Gelayol","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home Gheytariyeh","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Shiraz st","street":"Gali st - fadak Alley","extraDetails":"No 1425","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Khone","province":"Tehran","city":"Tehran","area":"Mirza shirazi st","street":"Yaghoubi st","extraDetails":"No 31","user":null}]]
+$4
+PXAT
+$13
+1765579825403
+*5
+$3
+SET
+$17
+user::09122532227
+$1016
+{"@class":"org.radon.shopy.user.domain.model.User","id":17,"fullName":{"@class":"org.radon.shopy.user.domain.model.FullName","value":"Javad Nasabi"},"email":{"@class":"org.radon.shopy.user.domain.model.Email","value":"j.nasab@gmail.com"},"phoneNumber":{"@class":"org.radon.shopy.user.domain.model.PhoneNumber","value":"09122532227"},"password":{"@class":"org.radon.shopy.user.domain.model.Password","value":"$2a$10$tEi29uR8NMJ7WsaNK.u3i.GUndzATcwMCi/48QuzQuLufqLcJjmOi"},"addressList":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Home","province":"Tehran","city":"Tehran","area":"Gheytariyeh","street":"Farsh Baf - Saeed saadi st","extraDetails":"No 147 - 6 Floor - 63","user":null},{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Shop","province":"Tehran","city":"Tehran","area":"Shiraz st","street":"Gali st - fadak Alley","extraDetails":"No 1425","user":null}]],"age":{"@class":"org.radon.shopy.user.domain.model.Age","value":28}}
+$4
+PXAT
+$13
+1765579838789
+*5
+$3
+SET
+$17
+user::09010000001
+$780
+{"@class":"org.radon.shopy.user.domain.model.User","id":21,"fullName":{"@class":"org.radon.shopy.user.domain.model.FullName","value":"Hamed Sanaii"},"email":{"@class":"org.radon.shopy.user.domain.model.Email","value":"h.sn@gmail.com"},"phoneNumber":{"@class":"org.radon.shopy.user.domain.model.PhoneNumber","value":"09010000001"},"password":{"@class":"org.radon.shopy.user.domain.model.Password","value":"$2a$10$9M.UsoV0jL2qYBYHr.cEyetVs5EpfQvHT524yd6sbN1B.e7FcSJNy"},"addressList":["java.util.ArrayList",[{"@class":"org.radon.shopy.address.domain.model.Address","id":null,"title":"Khone","province":"Tehran","city":"Tehran","area":"Mirza shirazi st","street":"Yaghoubi st","extraDetails":"No 31","user":null}]],"age":{"@class":"org.radon.shopy.user.domain.model.Age","value":27}}
+$4
+PXAT
+$13
+1765579861792
+*2
+$6
+SELECT
+$1
+0
+*2
+$3
+DEL
+$175
+addresses::SimpleKey [h.sn@gmail.com, 09010000001, AddAddressRequest[title=Khone, province=Tehran, city=Tehran, area=Mirza shirazi st, street=Yaghoubi st, extraDetails=No 31]]
+*2
+$3
+DEL
+$17
+user::09122532227
+*2
+$3
+DEL
+$23
+addresses::SimpleKey []
+*2
+$3
+DEL
+$17
+user::09010000001

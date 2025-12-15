@@ -1,0 +1,89 @@
+version: "3.8"
+
+volumes:
+  shopy_vendor_pg_data:
+  shopy_vendor_redis_data:
+  shopy_vendor_grafana_data:
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: shopy-vendor-pg
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: shopy-vendor-db
+    volumes:
+      - shopy_vendor_pg_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - internal
+
+  redis:
+    image: redis:7-alpine
+    container_name: redis-vendor
+    ports:
+      - "6380:6379"
+    volumes:
+      - shopy_vendor_redis_data:/data
+    command: ["redis-server", "--appendonly", "yes"]
+    restart: unless-stopped
+    networks:
+      - internal
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus-vendor
+    ports:
+      - "9091:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: unless-stopped
+    networks:
+      - internal
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana-vendor
+    ports:
+      - "3005:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - shopy_vendor_grafana_data:/var/lib/grafana
+    restart: unless-stopped
+    networks:
+      - internal
+
+  spring-app:
+    build: .
+    container_name: shopy-vendor-app
+    ports:
+      - "8085:8080"
+      - "2020:2020"   # NEW: gRPC port
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/shopy-vendor-db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 1234
+      SPRING_DATA_REDIS_HOST: redis-vendor
+      SPRING_DATA_REDIS_PORT: 6379
+      GRPC_SERVER_PORT: 2020
+    depends_on:
+      - postgres
+      - redis
+      - prometheus
+    restart: unless-stopped
+    networks:
+      - internal
+      - shared
+
+networks:
+  internal:
+    driver: bridge
+
+  shared:
+    external: true
+    name: shopy-shared-net

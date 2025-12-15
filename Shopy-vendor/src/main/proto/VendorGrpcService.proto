@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package shopyvendor;
+option java_outer_classname="ShopyVendorProto";
+option java_package="com.radon.grpc";
+option java_multiple_files = true;
+
+service Inventory{
+  rpc checkInventoryForAdd(ItemForCart) returns (ItemForCart);
+  rpc checkInventoryForRemove(ItemForCart) returns (ItemForCart);
+}
+
+service Products{
+  rpc getVendorProducts(ProductsRequest) returns (ProductsResponse);
+  rpc getProduct(ProductRequest) returns (ProductResponse);
+}
+
+service Vendors{
+  rpc getVendorById(VendorRequest) returns (VendorResponse);
+}
+
+
+message ItemForCart{
+  int64 productId = 1;
+  int64 vendorId = 2;
+  double price = 3;
+  string cartId = 4;
+}
+
+message ProductsRequest{
+  int64 vendorId = 1;
+  int32 size = 2;
+  int32 page = 3;
+}
+
+message ProductRequest{
+  int64 id = 1;
+}
+
+message ProductsResponse{
+  repeated ProductResponse products = 1;
+  int32 pageNumber = 2;
+  int32 pageSize = 3;
+  int32 totalPages = 4;
+  int64 totalElements = 5;
+}
+
+message ProductResponse{
+  int64 id = 1;
+  string name = 2;
+  string description = 3;
+  string details = 4;
+  string price = 5;
+  string quantity = 6;
+}
+
+message VendorRequest{
+  int64 id = 1;
+}
+
+message VendorResponse{
+   int64 id = 1;
+   string name = 2;
+   string description = 3;
+   string phoneNumber = 4;
+   AddressResponse address = 5;
+}
+
+message AddressResponse{
+  string title = 1;
+  string province = 2;
+  string city = 3;
+  string area = 4;
+  string street = 5;
+  string number = 6;
+}
+

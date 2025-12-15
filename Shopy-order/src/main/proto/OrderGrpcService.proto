@@ -1,0 +1,118 @@
+syntax = "proto3";
+
+package shopyorder;
+option java_outer_classname="ShopyOrderProto";
+option java_package="org.radon.shopyorder";
+option java_multiple_files = true;
+
+service Carts{
+    rpc addItemToCart(AddItemToCartRequest) returns (CartResponse);
+    rpc removeItemFromCart(RemoveItemFromCartRequest) returns (CartResponse);
+    rpc getUserCart(GetCartRequest) returns (CartResponse);
+}
+
+service Orders{
+  rpc submitOrder(SubmitOrderRequest) returns (OrderResponse);
+  rpc getUserOrders(UserOrdersRequest) returns (UserOrdersResponse);
+  rpc getUserOrder(UserOrderRequest) returns (OrderResponse);
+  rpc checkoutOrder(UserOrderRequest) returns (UserCheckoutResponse);
+  rpc cancelOrder(UserCancelRequest) returns (UserCancelResponse);
+  rpc payment(PaymentRequest) returns (PaymentResponse);
+}
+
+message PaymentResponse{
+  string orderNumber = 1;
+  string paymentId = 2;
+  string paymentStatus = 3;
+}
+
+message PaymentRequest{
+  string orderNumber = 1;
+  string paymentId = 2;
+  string paymentStatus = 3;
+}
+
+message UserCancelResponse{
+  string orderNumber = 2;
+}
+
+message UserCancelRequest{
+  int64 userId = 1;
+  string orderNumber = 2;
+}
+
+message UserCheckoutResponse{
+  string link = 1;
+}
+
+message UserOrderRequest{
+  string orderNumber = 1;
+}
+
+message UserOrdersResponse{
+  repeated OrderResponse orders = 1;
+}
+
+message UserOrdersRequest{
+  int64 userId = 1;
+}
+
+message SubmitOrderRequest{
+  int64 userId = 1;
+  string cartId = 2;
+}
+
+message OrderResponse{
+  string id = 1;
+  string orderNumber = 2;
+  int64 userId = 3;
+  string orderStatus = 4;
+  double totalAmount = 5;
+  string paymentId = 6;
+  string idempotencyKey = 7;
+  repeated OrderItemResponse items = 8;
+  string createdAt = 9;
+  string updatedAt = 10;
+}
+
+message OrderItemResponse{
+  string id = 1;
+  int64 productId = 2;
+  int64 vendorId = 3;
+  int32 quantity = 4;
+  double price = 5;
+}
+
+message GetCartRequest{
+  int64 userId = 1;
+}
+
+message RemoveItemFromCartRequest{
+  int64 productId = 1;
+  string cartId = 2;
+}
+
+message AddItemToCartRequest{
+  int64 productId = 1;
+  int64 vendorId = 2;
+  double price = 3;
+  string cartId = 4;
+}
+
+message CartItemResponse{
+  int64 productId = 1;
+  int64 vendorId = 2;
+  int32 quantity = 3;
+  double price = 4;
+  string created_at = 5;
+  string updated_at = 6;
+}
+
+message CartResponse{
+  string id = 1;
+  int64 userId = 2;
+  string cartStatus = 3;
+  repeated CartItemResponse items = 4;
+  string created_at = 5;
+  string updated_at = 6;
+}
