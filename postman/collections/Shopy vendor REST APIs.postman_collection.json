@@ -1,0 +1,353 @@
+{
+  "info": {
+    "_postman_id": "6f9400a3-fd99-4d4a-8631-e09ab100b1c6",
+    "name": "Shopy vendor REST APIs",
+    "description": "# 🚀 Get started here\n\nThis template guides you through CRUD operations (GET, POST, PUT, DELETE), variables, and tests.\n\n## 🔖 **How to use this template**\n\n#### **Step 1: Send requests**\n\nRESTful APIs allow you to perform CRUD operations using the POST, GET, PUT, and DELETE HTTP methods.\n\nThis collection contains each of these [request](https://learning.postman.com/docs/sending-requests/requests/) types. Open each request and click \"Send\" to see what happens.\n\n#### **Step 2: View responses**\n\nObserve the response tab for status code (200 OK), response time, and size.\n\n#### **Step 3: Send new Body data**\n\nUpdate or add new data in \"Body\" in the POST request. Typically, Body data is also used in PUT request.\n\n```\n{\n    \"name\": \"Add your name in the body\"\n}\n\n ```\n\n#### **Step 4: Update the variable**\n\nVariables enable you to store and reuse values in Postman. We have created a [variable](https://learning.postman.com/docs/sending-requests/variables/) called `base_url` with the sample request [https://postman-api-learner.glitch.me](https://postman-api-learner.glitch.me). Replace it with your API endpoint to customize this collection.\n\n#### **Step 5: Add tests in the \"Scripts\" tab**\n\nAdding tests to your requests can help you confirm that your API is working as expected. You can write test scripts in JavaScript and view the output in the \"Test Results\" tab.\n\n<img src=\"https://content.pstmn.io/fa30ea0a-373d-4545-a668-e7b283cca343/aW1hZ2UucG5n\" width=\"2162\" height=\"1530\">\n\n## 💪 Pro tips\n\n- Use folders to group related requests and organize the collection.\n    \n- Add more [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/) to verify if the API works as expected and execute workflows.\n    \n\n## 💡Related templates\n\n[API testing basics](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9a37a28-055b-49cd-8c7e-97494a21eb54&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[API documentation](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9c28f47-1253-44af-a2f3-20dce4da1f18&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[Authorization methods](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=31a9a6ed-4cdf-4ced-984c-d12c9aec1c27&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Successful POST request\", function () {",
+              "    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+              "});",
+              ""
+            ]
+          }
+        }
+      ],
+      "id": "6349d455-85ec-410d-be18-5faa6771db14",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"name\": \"Add your name in the body\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/info",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "info"
+          ]
+        },
+        "description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
+      },
+      "response": []
+    },
+    {
+      "name": "SignUp",
+      "id": "1a969207-c343-4699-b6ad-8144032d9210",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Dr.Desktop\",\r\n  \"description\": \"IT & Computers\",\r\n  \"phoneNumber\": \"09132323233\",\r\n  \"address\": {\r\n    \"province\": \"Tehran\",\r\n    \"city\": \"Karaj\",\r\n    \"area\": \"Baharan\",\r\n    \"street\": \"Hosseini\",\r\n    \"number\": \"No 75\",\r\n    \"title\": \"Shop\"\r\n  },\r\n  \"password\": \"11223344\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/auth/vendor/signup",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "vendor",
+            "signup"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Refresh Token",
+      "id": "86bdd204-1190-40a1-a1ef-9e5ed0f9964c",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"refreshToken\" : \"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwOTEzMjMyMzIzMyIsInJvbGVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifV0sImlhdCI6MTc2NDE2NzI3NCwiZXhwIjoxNzY0MTY4MTc0fQ.OWTSMepiiTW4ZInEg7wxAyDksoczy5Kv_6Mo1_oVXIY\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/auth/vendor/refresh-token",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "vendor",
+            "refresh-token"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Vendor",
+      "id": "72fc1696-567a-4e1d-9aa3-55c0874ca86c",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Edit Vendor",
+      "id": "9c1794c7-9083-46c9-9de6-5acd4a46f935",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Dr.Computer\",\r\n  \"description\": \"IT & Computers\",\r\n  \"phoneNumber\": \"09132323233\",\r\n  \"address\": {\r\n    \"province\": \"Tehran\",\r\n    \"city\": \"Karaj\",\r\n    \"area\": \"Baharan\",\r\n    \"street\": \"Hosseini\",\r\n    \"number\": \"No 75\",\r\n    \"title\": \"Shop\"\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/vendor/edit/2",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "vendor",
+            "edit",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Vendor",
+      "id": "0f172ba8-3e61-4b4b-8950-afb9ada149cf",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Dr.Computer\",\r\n  \"description\": \"IT & Computers\",\r\n  \"phoneNumber\": \"09132323233\",\r\n  \"address\": {\r\n    \"province\": \"Tehran\",\r\n    \"city\": \"Karaj\",\r\n    \"area\": \"Baharan\",\r\n    \"street\": \"Hosseini\",\r\n    \"number\": \"No 75\",\r\n    \"title\": \"Shop\"\r\n  }\r\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/vendor/delete/3",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "vendor",
+            "delete",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Product",
+      "id": "040d8534-5aee-4de1-8c90-cbc5254b6256",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Products Pagination",
+      "id": "67598a87-7914-4347-9d9c-b5d3faf06c57",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Add Product",
+      "id": "ec331a71-930d-4046-b4eb-0cbb0ec081c5",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwOTExMTIzNDU2NyIsInJvbGVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifV0sImlhdCI6MTc2NDE2ODYyNywiZXhwIjoxNzY0MTY4OTI3fQ.ZgyI3DIK5x5WRe5ledBalQfX34hurrKZHT4k239gd3U",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\" : \"Nike AirForce\",\r\n    \"description\" : \"size 43,44,45\",\r\n    \"details\" : \"AirForce Jordan with 3 diffrent size in red/black/white\",\r\n    \"price\" : \"140.99 $\",\r\n    \"quantity\" : \"4\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/product/add?vendorId=4",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "product",
+            "add"
+          ],
+          "query": [
+            {
+              "key": "vendorId",
+              "value": "4"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Remove Product",
+      "id": "808dfbdf-ca71-4ba1-8988-4d1711503cd4",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/product/remove/2",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "product",
+            "remove",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Product",
+      "id": "50f14930-2ffe-4625-ae52-452eec6fe258",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwOTExMTIzNDU2NyIsInJvbGVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifV0sImlhdCI6MTc2NDE2ODYyNywiZXhwIjoxNzY0MTY4OTI3fQ.ZgyI3DIK5x5WRe5ledBalQfX34hurrKZHT4k239gd3U",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\" : \"Nike AirForce\",\r\n    \"description\" : \"size 43,44,45\",\r\n    \"details\" : \"AirForce Jordan with 3 diffrent size in red/black/white\",\r\n    \"price\" : \"140.99 $\",\r\n    \"quantity\" : \"3\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/product/update/4",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "product",
+            "update",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Item test",
+      "id": "6f0ee6b5-efd0-4d36-9920-db8f3277a157",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "e89e239f-9dd7-4ce7-b7c7-286884551d71",
+        "type": "text/javascript",
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "c9fb523a-2077-4e22-9c30-d81b43bfa0dd",
+        "type": "text/javascript",
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "dc05e62f-9077-4fea-b9a0-6373fb038ab2",
+      "key": "base_url",
+      "value": "https://template.postman-echo.com"
+    },
+    {
+      "id": "6e727d0c-1e05-4935-bd9f-5c6a1c8b3be3",
+      "key": "access_token",
+      "value": ""
+    },
+    {
+      "id": "2f6197a4-3dd1-4ddd-81bf-82f078fdcce1",
+      "key": "refresh_token",
+      "value": ""
+    }
+  ]
+}

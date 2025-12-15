@@ -1,0 +1,634 @@
+{
+  "info": {
+    "_postman_id": "83f7309c-e87b-47d0-bf26-f9680dd130e1",
+    "name": "Shopy REST APIs",
+    "description": "# 🚀 Get started here\n\nThis template guides you through CRUD operations (GET, POST, PUT, DELETE), variables, and tests.\n\n## 🔖 **How to use this template**\n\n#### **Step 1: Send requests**\n\nRESTful APIs allow you to perform CRUD operations using the POST, GET, PUT, and DELETE HTTP methods.\n\nThis collection contains each of these [request](https://learning.postman.com/docs/sending-requests/requests/) types. Open each request and click \"Send\" to see what happens.\n\n#### **Step 2: View responses**\n\nObserve the response tab for status code (200 OK), response time, and size.\n\n#### **Step 3: Send new Body data**\n\nUpdate or add new data in \"Body\" in the POST request. Typically, Body data is also used in PUT request.\n\n```\n{\n    \"name\": \"Add your name in the body\"\n}\n\n ```\n\n#### **Step 4: Update the variable**\n\nVariables enable you to store and reuse values in Postman. We have created a [variable](https://learning.postman.com/docs/sending-requests/variables/) called `base_url` with the sample request [https://postman-api-learner.glitch.me](https://postman-api-learner.glitch.me). Replace it with your API endpoint to customize this collection.\n\n#### **Step 5: Add tests in the \"Scripts\" tab**\n\nAdding tests to your requests can help you confirm that your API is working as expected. You can write test scripts in JavaScript and view the output in the \"Test Results\" tab.\n\n<img src=\"https://content.pstmn.io/fa30ea0a-373d-4545-a668-e7b283cca343/aW1hZ2UucG5n\" alt=\"\" height=\"1530\" width=\"2162\">\n\n## 💪 Pro tips\n\n- Use folders to group related requests and organize the collection.\n    \n- Add more [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/) to verify if the API works as expected and execute workflows.\n    \n\n## 💡Related templates\n\n[API testing basics](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9a37a28-055b-49cd-8c7e-97494a21eb54&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[API documentation](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9c28f47-1253-44af-a2f3-20dce4da1f18&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[Authorization methods](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=31a9a6ed-4cdf-4ced-984c-d12c9aec1c27&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Sign Up",
+      "id": "15e987c6-6b3c-4456-948a-d8193037e703",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "fullName",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "email",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "phoneNumber",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "age",
+              "value": "",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/auth/signup",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "signup"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login",
+      "id": "a7520fee-7da4-4acb-95da-2dc185abe41b",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"alireza.kh@gmail.com\",\r\n  \"phoneNumber\": \"09369101332\",\r\n  \"password\": \"123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/auth/login",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Refresh Token",
+      "id": "66e3666e-a516-4ef9-976a-ed1bdb895b99",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"alireza.kh@gmail.com\",\r\n  \"phoneNumber\": \"09369101332\",\r\n  \"password\": \"123456\"\r\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/auth/refresh-token",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "refresh-token"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Users",
+      "id": "986ef8c2-dfec-4d4d-9447-508e11633df1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/user/all?page=0&size=10",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "user",
+            "all"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "0"
+            },
+            {
+              "key": "size",
+              "value": "10"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Reset Password",
+      "id": "c3927289-52e9-422e-a222-875994898f4c",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/user/reset-password",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "user",
+            "reset-password"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Edit User",
+      "id": "7f19ed7e-3dd2-4ec1-8088-c41931efc17b",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"fullName\": \"Mohammad hasani\",\r\n  \"email\": \"m.hasani@gmail.com\",\r\n  \"phoneNumber\": \"09111234555\",\r\n  \"age\": \"19\"\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/user/edit",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "user",
+            "edit"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get User",
+      "id": "67b99a6a-b84c-42a7-8173-05b8ad5f3db6",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Addresses",
+      "id": "f8b522f1-bcf5-43c7-b66a-8d5880636f9f",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Add Address",
+      "id": "14263247-f57f-4287-9968-033ea1a0ad88",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Work\",\r\n  \"province\": \"Tehran\",\r\n  \"city\": \"Tehran\",\r\n  \"area\": \"Gandi\",\r\n  \"street\": \"Pardis 7\",\r\n  \"extraDetails\": \"Toosan Techno\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/address/add?email=m.hasani@gmail.com&phone=09111234555",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "address",
+            "add"
+          ],
+          "query": [
+            {
+              "key": "email",
+              "value": "m.hasani@gmail.com"
+            },
+            {
+              "key": "phone",
+              "value": "09111234555"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Edit Address",
+      "id": "3570f215-79e7-4d9e-ad20-9b8fed0bd0d4",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Work\",\r\n  \"province\": \"Tehran\",\r\n  \"city\": \"Tehran\",\r\n  \"area\": \"Gandi\",\r\n  \"street\": \"Pardis 7\",\r\n  \"extraDetails\": \"Toosan Techno\"\r\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/address/edit/2",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "address",
+            "edit",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Vendor By ID",
+      "id": "9547e443-450f-4df1-87f1-0f561353d1ad",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/vendor/2",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "vendor",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Vendor Product",
+      "id": "1a894e09-e5c8-4f55-b206-e6cd4536a199",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Vendor Products Pagination",
+      "id": "1d9bd334-5053-43ed-927b-64395cd3a784",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Cart",
+      "id": "235f0ded-9468-43ae-a372-3198aa7bb57e",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/cart",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "cart"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add item to cart",
+      "id": "7f5ea15f-5c22-446d-97ec-80629ba9b7c8",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"cartId\": \"c65829e6-4202-49a2-9bca-4f8aacaa1778\",\r\n  \"vendorId\": 1,\r\n  \"productId\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/cart/add",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "cart",
+            "add"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Remove item from cart",
+      "id": "1b39ce2e-4c0b-40b4-a194-8c5a23ebe6e8",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"cartId\": \"c65829e6-4202-49a2-9bca-4f8aacaa1778\",\r\n  \"vendorId\": 1,\r\n  \"productId\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/cart/remove",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "cart",
+            "remove"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Submit order",
+      "id": "0dea2ff4-14f1-4fa6-a28c-fd26bfe4dcfd",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/order/c65829e6-4202-49a2-9bca-4f8aacaa1778/submit",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "order",
+            "c65829e6-4202-49a2-9bca-4f8aacaa1778",
+            "submit"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cancel order",
+      "id": "820949c6-f0da-4f3b-88bc-60a2d226da65",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/order/7d225652-b8df-4a41-b0e2-c05305933507/cancel",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "order",
+            "7d225652-b8df-4a41-b0e2-c05305933507",
+            "cancel"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get order",
+      "id": "fc36bcbf-9a33-41da-8af0-18b733fa8ea3",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/order/7d225652-b8df-4a41-b0e2-c05305933507",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "order",
+            "7d225652-b8df-4a41-b0e2-c05305933507"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get all orders",
+      "id": "7bf9acc8-02fe-4d98-b559-1418dc88378b",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/order/all",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "order",
+            "all"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Checkout order",
+      "id": "bc952f4f-1235-4fd4-943a-0455210733e7",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{Token}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/order/7d225652-b8df-4a41-b0e2-c05305933507/checkout",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "order",
+            "7d225652-b8df-4a41-b0e2-c05305933507",
+            "checkout"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "c9ff1071-9524-4135-a0c8-c1107c9b5666",
+        "type": "text/javascript",
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "73ece672-5ccf-473f-a678-e4c34a748f31",
+        "type": "text/javascript",
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "74cb6c30-be3f-4441-92bf-b09b0d1a363e",
+      "key": "base_url",
+      "value": "https://template.postman-echo.com"
+    },
+    {
+      "id": "ae9a79b3-61c7-4dcf-8c13-e56c56895286",
+      "key": "REFRESH-TOKEN",
+      "value": ""
+    },
+    {
+      "id": "2365616d-2e29-4ee3-a7f3-589cfdd7d737",
+      "key": "Token",
+      "value": ""
+    }
+  ]
+}
