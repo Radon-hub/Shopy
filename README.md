@@ -1,8 +1,8 @@
-# Shopy Microservices Platform
+# 🛍️ Shopy Microservices Platform
 
 A **microservices e-commerce backend system** built with **Spring Boot**, using **gRPC**, **Kafka**, **PostgreSQL**, **Redis**, and **JWT authentication**. This platform consists of four separate services that communicate via gRPC and Kafka, each with its own Docker setup.  
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```bash
 
@@ -19,9 +19,9 @@ Each service can run **independently**, with Docker handling all dependencies au
 
 ---
 
-## Services Overview
+## ⚙️ Services Overview
 
-### 1. Shopy (User Service)
+### 1️⃣ Shopy (User Service)
 
 - **URL:** `http://localhost:8080`
 - **Features:**  
@@ -34,7 +34,7 @@ Each service can run **independently**, with Docker handling all dependencies au
 - **Cache:** Redis  
 - **Communication:** gRPC to Shopy-Order for cart & order management, Kafka events for user registration.  
 
-### 2. Shopy-Vendor (Vendor Service)
+### 2️⃣ Shopy-Vendor (Vendor Service)
 
 - **URL:** `http://localhost:8085`
 - **Features:**  
@@ -46,21 +46,21 @@ Each service can run **independently**, with Docker handling all dependencies au
 - **Cache:** Redis  
 - **Communication:** gRPC and Kafka events with other services.  
 
-### 3. Shopy-Order (Cart & Order Service)
+### 3️⃣ Shopy-Order (Cart & Order Service)
 
 - **gRPC only** (no REST API for users)  
 - Handles user carts and orders.  
 - Communicates with Shopy and Shopy-Vendor via **gRPC**.  
 - Sends and consumes Kafka events (e.g., order expiration).  
 
-### 4. Shopy-Kafka
+### 4️⃣ Shopy-Kafka
 
 - Dedicated Kafka broker and event system.  
 - Used by all services for asynchronous communication.  
 
 ---
 
-## Running the Services
+## 🏃 Running the Services
 
 Each service has its **own Dockerfile and docker-compose.yml**, so you can run them independently. Docker handles all dependencies automatically.  
 
@@ -84,13 +84,13 @@ cd shopy-kafka
 docker-compose -f docker-compose.kafka.yml up -d
 ```
 
-## Access user and vendor services in your browser:
+## 🌐 Access user and vendor services in your browser:
 
 **User service:** http://localhost:8080
 
 **Vendor service:** http://localhost:8085
 
-## Authentication Flow
+## 🔑 Authentication Flow
 Users and vendors login with JWT-based authentication.
 
 **- Access token:** Short-lived token for requests
@@ -99,7 +99,7 @@ Users and vendors login with JWT-based authentication.
 
 - Passwords are hashed using BCrypt.
 
-## API Documentation
+## 📄 API Documentation
 
 - REST APIs (Shopy & Shopy-Vendor): Use the provided Postman collection.
 
@@ -112,14 +112,14 @@ You can import the Postman collection from:
 /postman/collections/*.postman_collection.json
 
 ```
-## Architecture Overview
+## 🏗️ Architecture Overview
 Microservices communicate using **gRPC** for synchronous operations and **Kafka** for asynchronous events.
 
 - Each service has its own **PostgreSQL** and **Redis** instances.
 
 - Observability via **Prometheus & Grafana**, and **Spring Actuator** endpoints.
 
-## Workflow Example:
+#### Workflow Example:
 
 - User adds a product to cart via **Shopy REST API**.
 
@@ -127,7 +127,7 @@ Microservices communicate using **gRPC** for synchronous operations and **Kafka*
 
 - Order expiration or user registration triggers **Kafka events**, which other services can consume.
 
-## Contributing
+## 🤝 Contributing
 - Clone the repo
 
 - Run each service with Docker Compose
